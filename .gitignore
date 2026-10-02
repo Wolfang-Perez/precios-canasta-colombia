@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Datos
+data/raw/
+data/processed/
+*.csv
+*.parquet
+*.xlsx
+
+# Entorno
+.env
+.env.local
+
+# Entorno virtual
+.uv/
+poetry.lock
+
+# Sistema
+.DS_Store
+*.swp
+*~
+
+# Reports generados
+reports/figures/*.png
